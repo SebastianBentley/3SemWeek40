@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpack/Babel-demo</title>
+</head>
+
+<body>
+  <ul id="menu" class="header">
+    <li><a href="" id="about">About</a></li>
+    <li><a href="" id="ex1">Ex1</a></li>
+    <li><a href="" id="ex2">Ex2</a></li>
+    <li><a href="" id="ex3">Ex3</a></li>
+  </ul>
+
+  <div class="content">
+
+    <!-- This is were you should place your basic HTML for exercise-1 -->
+    <div id="ex1_html" style="display:none;">
+      <h3>Exercise 1</h3>
+      <p>Add your basic HTML for Exercise 1 here</p>
+      <ul id="jokes"></ul>
+
+      <input type="text" id="jokeByIdText">
+      <button type="button" id="jokeByIdBtn">get joke</button>
+      <p id="jokeByIdPara"></p>
+
+      <input type="text" id="addJokeText">
+      <button type="button" id="addJokeBtn">add joke</button>
+     
+    </div>
+    <!-- End of HTML for exercise-1 -->
+
+
+
+    <!-- This is were you should place your basic HTML for exercise-2 -->
+    <div id="ex2_html" style="display:none;">
+      <h3>Exercise 2</h3>
+      <p id="ex2p">Add your basic HTML for Exercise 2 here</p>
+      <button type="button" id="ex2Btn">get joke</button>
+      <p id="ex2Para"></p>
+
+
+    </div>
+    <!-- End of HTML for exercise-2 -->
+
+
+    <!-- This is were you should place your basic HTML for exercise-3 -->
+    <div id="ex3_html" style="display:none;">
+      <h3>Ex-3</h3>
+      <p>Add your basic HTML for Exercise 3 here</p>
+      <div class="row" style="min-height: 5em;"">
+      <div class="col-md-8 pre-scrollable" style="background-color: lightgrey;">
+        <h5>All Users</h5>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Age</th>
+              <th>Name
+              <th>
+              <th>Gender</th>
+              <th>Email </th>
+          </thead>
+          <tbody id="allUserRows">
+          <tbody>
+        </table>
+      </div>
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Add User</h5>
+        <input type="text" id="ageInput" placeholder="insert age"><br>
+        <input type="text" id="nameInput" placeholder="insert name"><br>
+        <input type="text" id="genderInput" placeholder="insert gender"><br>
+        <input type="text" id="emailInput" placeholder="insert email"><br>
+        <button type="button" id="addUserBtn">add user</button>
+      </div>
+    </div>
+    <div class="row" style="min-height: 5em;">
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Find User</h5>
+        <input type="text" id="findById" placeholder="insert id">
+        <button type="button" id="findByIdBtn">find user</button>
+        <p id="userFound"></p>
+        
+      </div>
+      <div class="col-md-4" style="background-color: lightgrey;">
+        <h5>Edit User</h5>
+        <input type="text" id="idEdit" placeholder="insert id"><br>
+        <input type="text" id="ageEdit" placeholder="edit age"><br>
+        <input type="text" id="nameEdit" placeholder="edit name"><br>
+        <input type="text" id="genderEdit" placeholder="edit gender"><br>
+        <input type="text" id="emailEdit" placeholder="edit email"><br>
+        <button type="button" id="editUserBtn">edit user</button>
+      </div>
+      <div class="col-md-4" style="background-color: powderblue;">
+        <h5>Delete User</h5>
+        <input type="text" id="deleteById" placeholder="insert id">
+        <button type="button" id="deleteByIdBtn">delete user</button>
+        <p id="deleteMsg"></p>
+      </div>
+      <p style="color: red;" id="errorMsg"></p>
+    </div>
+    
+  </div>
+  <!-- End of HTML for exercise-3 -->
+
+  <!---- HTML for the About page -->
+  <div id="about_html" style="display:none;">
+    <h3>About</h3>
+    <h2>Hello</h2>
+    <p>Watch the small video given as intro to this code, BEFORE you start using it</p>
+  </div>
+  <!-- End of HTML for ABOUT Page -->
+
+  </div>
+
+  <!-- #################################################################-->
+  <!-- IMPORTANT  DO NOT IMPORT ANY JavaScript in this file by YOURSELF -->
+  <!-- #################################################################-->
+
+</body>
+
+</html>

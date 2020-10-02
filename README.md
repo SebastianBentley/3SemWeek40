@@ -11,10 +11,10 @@
 
 ## Thursday - Fully completed
 * **personfrontend** folder implements a front-end, using a previous exercise as REST-API.
+* **LINK TO DEPLOYET PROJECT:** [https://sebsentwo.surge.sh/](https://sebsentwo.surge.sh/)
 
 ## Friday - Partly completed
 * **exam-prep-optional** folder contains project for optional exam-prep assignment.
-* **LINK TO DEPLOYET PROJECT:** [https://sebsentwo.surge.sh/](https://sebsentwo.surge.sh/)
 
 ## How far did I come?
 * All mandatory exercises are fully completed.
